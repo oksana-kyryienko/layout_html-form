@@ -1,1 +1,40 @@
 /* styles go here */
+
+/* html {
+  all: revert;
+} */
+
+.title {
+  display: none;
+}
+
+.form-field {
+  display: block;
+  /* padding: 10px; */
+  /* margin-bottom: 10px; */
+}
+
+.form-field:not(:first-child):not(:last-child) {
+  /* padding: 10px; */
+  margin-bottom: 10px;
+}
+
+.radio {
+  display: unset;
+}
+
+.fieldset {
+  margin-bottom: 20px;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.cars {
+  overflow: visible;
+}
+
+input[type="color" i] {
+  margin-top: 10px;
+}
