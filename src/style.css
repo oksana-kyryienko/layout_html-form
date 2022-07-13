@@ -1,21 +1,14 @@
 /* styles go here */
 
-/* html {
-  all: revert;
-} */
-
 .title {
   display: none;
 }
 
 .form-field {
   display: block;
-  /* padding: 10px; */
-  /* margin-bottom: 10px; */
 }
 
 .form-field:not(:first-child):not(:last-child) {
-  /* padding: 10px; */
   margin-bottom: 10px;
 }
 
